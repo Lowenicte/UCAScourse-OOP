@@ -1,0 +1,1529 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true,
+					"ownedViews": [
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAF8MYQjyQb7A0E=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "AAAAAAF8MYQjyAb5FSM="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAF8MYQjyQb85RE=",
+									"_parent": {
+										"$ref": "AAAAAAF8MYQjyQb7A0E="
+									},
+									"model": {
+										"$ref": "AAAAAAF8MYQjyAb5FSM="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF8MYQjyQb9EIM=",
+											"_parent": {
+												"$ref": "AAAAAAF8MYQjyQb85RE="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF8MYQjygb+dmY=",
+											"_parent": {
+												"$ref": "AAAAAAF8MYQjyQb85RE="
+											},
+											"font": "Arial;13;1",
+											"left": 53,
+											"top": 87,
+											"width": 206,
+											"height": 13,
+											"text": "车-厂家"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF8MYQjygb/250=",
+											"_parent": {
+												"$ref": "AAAAAAF8MYQjyQb85RE="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"width": 82.56396484375,
+											"height": 13,
+											"text": "(from Model)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF8MYQjygcAkWU=",
+											"_parent": {
+												"$ref": "AAAAAAF8MYQjyQb85RE="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 48,
+									"top": 80,
+									"width": 216,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAF8MYQjyQb9EIM="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAF8MYQjygb+dmY="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAF8MYQjygb/250="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAF8MYQjygcAkWU="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAF8MYQjygcBSdE=",
+									"_parent": {
+										"$ref": "AAAAAAF8MYQjyQb7A0E="
+									},
+									"model": {
+										"$ref": "AAAAAAF8MYQjyAb5FSM="
+									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF8MYRDrQcmVEY=",
+											"_parent": {
+												"$ref": "AAAAAAF8MYQjygcBSdE="
+											},
+											"model": {
+												"$ref": "AAAAAAF8MYRDpQcjtWs="
+											},
+											"font": "Arial;13;0",
+											"left": 53,
+											"top": 110,
+											"width": 206,
+											"height": 13,
+											"text": "+品牌：String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF8MYTybwc07jU=",
+											"_parent": {
+												"$ref": "AAAAAAF8MYQjygcBSdE="
+											},
+											"model": {
+												"$ref": "AAAAAAF8MYTyagcxZAE="
+											},
+											"font": "Arial;13;0",
+											"left": 53,
+											"top": 125,
+											"width": 206,
+											"height": 13,
+											"text": "+零件：零件Class Array",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF8MYU/FAc+PCk=",
+											"_parent": {
+												"$ref": "AAAAAAF8MYQjygcBSdE="
+											},
+											"model": {
+												"$ref": "AAAAAAF8MYU/EQc7e0U="
+											},
+											"font": "Arial;13;0",
+											"left": 53,
+											"top": 140,
+											"width": 206,
+											"height": 13,
+											"text": "+出场时间：int",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF8MYVorQdF+Gk=",
+											"_parent": {
+												"$ref": "AAAAAAF8MYQjygcBSdE="
+											},
+											"model": {
+												"$ref": "AAAAAAF8MYVoqQdCq2Q="
+											},
+											"font": "Arial;13;0",
+											"left": 53,
+											"top": 155,
+											"width": 206,
+											"height": 13,
+											"text": "+车主：String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF8MYWJPgdMsWw=",
+											"_parent": {
+												"$ref": "AAAAAAF8MYQjygcBSdE="
+											},
+											"model": {
+												"$ref": "AAAAAAF8MYWJOgdJ5fw="
+											},
+											"font": "Arial;13;0",
+											"left": 53,
+											"top": 170,
+											"width": 206,
+											"height": 13,
+											"text": "+价格：float",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF8MYW7iAdT7h8=",
+											"_parent": {
+												"$ref": "AAAAAAF8MYQjygcBSdE="
+											},
+											"model": {
+												"$ref": "AAAAAAF8MYW7hAdQOeA="
+											},
+											"font": "Arial;13;0",
+											"left": 53,
+											"top": 185,
+											"width": 206,
+											"height": 13,
+											"text": "+保修信息：保修Class",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF8MjaTxAiDdSI=",
+											"_parent": {
+												"$ref": "AAAAAAF8MYQjygcBSdE="
+											},
+											"model": {
+												"$ref": "AAAAAAF8MjaTwAiA11U="
+											},
+											"font": "Arial;13;0",
+											"left": 53,
+											"top": 200,
+											"width": 206,
+											"height": 13,
+											"text": "+...",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 48,
+									"top": 105,
+									"width": 216,
+									"height": 113
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAF8MYQjygcCzWk=",
+									"_parent": {
+										"$ref": "AAAAAAF8MYQjyQb7A0E="
+									},
+									"model": {
+										"$ref": "AAAAAAF8MYQjyAb5FSM="
+									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF8MYY7fAdaxoI=",
+											"_parent": {
+												"$ref": "AAAAAAF8MYQjygcCzWk="
+											},
+											"model": {
+												"$ref": "AAAAAAF8MYY7dwdXudk="
+											},
+											"font": "Arial;13;0",
+											"left": 53,
+											"top": 223,
+											"width": 206,
+											"height": 13,
+											"text": "+出售(买家)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF8MYZ7bwdjU2M=",
+											"_parent": {
+												"$ref": "AAAAAAF8MYQjygcCzWk="
+											},
+											"model": {
+												"$ref": "AAAAAAF8MYZ7aQdgKBk="
+											},
+											"font": "Arial;13;0",
+											"left": 53,
+											"top": 238,
+											"width": 206,
+											"height": 13,
+											"text": "+维修零件(零件列表)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF8MYaudwdsg4I=",
+											"_parent": {
+												"$ref": "AAAAAAF8MYQjygcCzWk="
+											},
+											"model": {
+												"$ref": "AAAAAAF8MYaudAdp71U="
+											},
+											"font": "Arial;13;0",
+											"left": 53,
+											"top": 253,
+											"width": 206,
+											"height": 13,
+											"text": "+保修处理()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF8MYcLtwdzy58=",
+											"_parent": {
+												"$ref": "AAAAAAF8MYQjygcCzWk="
+											},
+											"model": {
+												"$ref": "AAAAAAF8MYcLsgdwNEM="
+											},
+											"font": "Arial;13;0",
+											"left": 53,
+											"top": 268,
+											"width": 206,
+											"height": 13,
+											"text": "+车(...)",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 48,
+									"top": 218,
+									"width": 216,
+									"height": 68
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAF8MYQjygcDcpE=",
+									"_parent": {
+										"$ref": "AAAAAAF8MYQjyQb7A0E="
+									},
+									"model": {
+										"$ref": "AAAAAAF8MYQjyAb5FSM="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAF8MYQjygcELsY=",
+									"_parent": {
+										"$ref": "AAAAAAF8MYQjyQb7A0E="
+									},
+									"model": {
+										"$ref": "AAAAAAF8MYQjyAb5FSM="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 48,
+							"top": 80,
+							"width": 216,
+							"height": 304,
+							"nameCompartment": {
+								"$ref": "AAAAAAF8MYQjyQb85RE="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAF8MYQjygcBSdE="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAF8MYQjygcCzWk="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAF8MYQjygcDcpE="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAF8MYQjygcELsY="
+							}
+						},
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAF8MYdqUAd7xXk=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "AAAAAAF8MYdqUAd5uvg="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAF8MYdqUAd8ack=",
+									"_parent": {
+										"$ref": "AAAAAAF8MYdqUAd7xXk="
+									},
+									"model": {
+										"$ref": "AAAAAAF8MYdqUAd5uvg="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF8MYdqUAd9D/U=",
+											"_parent": {
+												"$ref": "AAAAAAF8MYdqUAd8ack="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF8MYdqUAd+qvQ=",
+											"_parent": {
+												"$ref": "AAAAAAF8MYdqUAd8ack="
+											},
+											"font": "Arial;13;1",
+											"left": 317,
+											"top": 87,
+											"width": 198,
+											"height": 13,
+											"text": "车-车主"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF8MYdqUAd/UDI=",
+											"_parent": {
+												"$ref": "AAAAAAF8MYdqUAd8ack="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"width": 73.67724609375,
+											"height": 13,
+											"text": "(from Model)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF8MYdqUAeAHWM=",
+											"_parent": {
+												"$ref": "AAAAAAF8MYdqUAd8ack="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 312,
+									"top": 80,
+									"width": 208,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAF8MYdqUAd9D/U="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAF8MYdqUAd+qvQ="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAF8MYdqUAd/UDI="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAF8MYdqUAeAHWM="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAF8MYdqUAeBAwE=",
+									"_parent": {
+										"$ref": "AAAAAAF8MYdqUAd7xXk="
+									},
+									"model": {
+										"$ref": "AAAAAAF8MYdqUAd5uvg="
+									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF8MYeB+Qem6sg=",
+											"_parent": {
+												"$ref": "AAAAAAF8MYdqUAeBAwE="
+											},
+											"model": {
+												"$ref": "AAAAAAF8MYeB9AejxVQ="
+											},
+											"font": "Arial;13;0",
+											"left": 317,
+											"top": 110,
+											"width": 198,
+											"height": 13,
+											"text": "+品牌：String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF8MYegjAetucw=",
+											"_parent": {
+												"$ref": "AAAAAAF8MYdqUAeBAwE="
+											},
+											"model": {
+												"$ref": "AAAAAAF8MYeghgeqHfM="
+											},
+											"font": "Arial;13;0",
+											"left": 317,
+											"top": 125,
+											"width": 198,
+											"height": 13,
+											"text": "+维修记录：log Class",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF8MYggaAe0Oi0=",
+											"_parent": {
+												"$ref": "AAAAAAF8MYdqUAeBAwE="
+											},
+											"model": {
+												"$ref": "AAAAAAF8MYggZAexLzg="
+											},
+											"font": "Arial;13;0",
+											"left": 317,
+											"top": 140,
+											"width": 198,
+											"height": 13,
+											"text": "+厂家：String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF8MYi9yge7EQY=",
+											"_parent": {
+												"$ref": "AAAAAAF8MYdqUAeBAwE="
+											},
+											"model": {
+												"$ref": "AAAAAAF8MYi9xQe4mrU="
+											},
+											"font": "Arial;13;0",
+											"left": 317,
+											"top": 155,
+											"width": 198,
+											"height": 13,
+											"text": "+登记地：String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF8MY2ucwfD6P4=",
+											"_parent": {
+												"$ref": "AAAAAAF8MYdqUAeBAwE="
+											},
+											"model": {
+												"$ref": "AAAAAAF8MY2ubAfABeQ="
+											},
+											"font": "Arial;13;0",
+											"left": 317,
+											"top": 170,
+											"width": 198,
+											"height": 13,
+											"text": "+里程数：float",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF8MY3hCAfKSlI=",
+											"_parent": {
+												"$ref": "AAAAAAF8MYdqUAeBAwE="
+											},
+											"model": {
+												"$ref": "AAAAAAF8MY3hBAfHG7k="
+											},
+											"font": "Arial;13;0",
+											"left": 317,
+											"top": 185,
+											"width": 198,
+											"height": 13,
+											"text": "+剩余油量：double",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF8MiC+SwfRi30=",
+											"_parent": {
+												"$ref": "AAAAAAF8MYdqUAeBAwE="
+											},
+											"model": {
+												"$ref": "AAAAAAF8MiC+RwfOBQc="
+											},
+											"font": "Arial;13;0",
+											"left": 317,
+											"top": 200,
+											"width": 198,
+											"height": 13,
+											"text": "+购买时间：String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF8MiQCGQf44n8=",
+											"_parent": {
+												"$ref": "AAAAAAF8MYdqUAeBAwE="
+											},
+											"model": {
+												"$ref": "AAAAAAF8MiQCEAf1JFA="
+											},
+											"font": "Arial;13;0",
+											"left": 317,
+											"top": 215,
+											"width": 198,
+											"height": 13,
+											"text": "+...",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 312,
+									"top": 105,
+									"width": 208,
+									"height": 128
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAF8MYdqUQeCpSA=",
+									"_parent": {
+										"$ref": "AAAAAAF8MYdqUAd7xXk="
+									},
+									"model": {
+										"$ref": "AAAAAAF8MYdqUAd5uvg="
+									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF8MiMJtQfYZ4E=",
+											"_parent": {
+												"$ref": "AAAAAAF8MYdqUQeCpSA="
+											},
+											"model": {
+												"$ref": "AAAAAAF8MiMJsAfVSTE="
+											},
+											"font": "Arial;13;0",
+											"left": 317,
+											"top": 238,
+											"width": 198,
+											"height": 13,
+											"text": "+加油(油量)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF8MiNe8Afhhes=",
+											"_parent": {
+												"$ref": "AAAAAAF8MYdqUQeCpSA="
+											},
+											"model": {
+												"$ref": "AAAAAAF8MiNe6wfeJoE="
+											},
+											"font": "Arial;13;0",
+											"left": 317,
+											"top": 253,
+											"width": 198,
+											"height": 13,
+											"text": "+维修()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF8MiOMTQfoRaE=",
+											"_parent": {
+												"$ref": "AAAAAAF8MYdqUQeCpSA="
+											},
+											"model": {
+												"$ref": "AAAAAAF8MiOMSAflNys="
+											},
+											"font": "Arial;13;0",
+											"left": 317,
+											"top": 268,
+											"width": 198,
+											"height": 13,
+											"text": "+登记()",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF8MiPA3wfvVF4=",
+											"_parent": {
+												"$ref": "AAAAAAF8MYdqUQeCpSA="
+											},
+											"model": {
+												"$ref": "AAAAAAF8MiPA2wfs/44="
+											},
+											"font": "Arial;13;0",
+											"left": 317,
+											"top": 283,
+											"width": 198,
+											"height": 13,
+											"text": "+车(...)",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 312,
+									"top": 233,
+									"width": 208,
+									"height": 68
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAF8MYdqUQeDsOE=",
+									"_parent": {
+										"$ref": "AAAAAAF8MYdqUAd7xXk="
+									},
+									"model": {
+										"$ref": "AAAAAAF8MYdqUAd5uvg="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAF8MYdqUQeEmGo=",
+									"_parent": {
+										"$ref": "AAAAAAF8MYdqUAd7xXk="
+									},
+									"model": {
+										"$ref": "AAAAAAF8MYdqUAd5uvg="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 312,
+							"top": 80,
+							"width": 208,
+							"height": 304,
+							"nameCompartment": {
+								"$ref": "AAAAAAF8MYdqUAd8ack="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAF8MYdqUAeBAwE="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAF8MYdqUQeCpSA="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAF8MYdqUQeDsOE="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAF8MYdqUQeEmGo="
+							}
+						},
+						{
+							"_type": "UMLClassView",
+							"_id": "AAAAAAF8MioJSwf+lAE=",
+							"_parent": {
+								"$ref": "AAAAAAFF+qBtyKM79qY="
+							},
+							"model": {
+								"$ref": "AAAAAAF8MioJSwf85FE="
+							},
+							"subViews": [
+								{
+									"_type": "UMLNameCompartmentView",
+									"_id": "AAAAAAF8MioJSwf/Gvw=",
+									"_parent": {
+										"$ref": "AAAAAAF8MioJSwf+lAE="
+									},
+									"model": {
+										"$ref": "AAAAAAF8MioJSwf85FE="
+									},
+									"subViews": [
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF8MioJSwgA0Bc=",
+											"_parent": {
+												"$ref": "AAAAAAF8MioJSwf/Gvw="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"height": 13
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF8MioJSwgBihw=",
+											"_parent": {
+												"$ref": "AAAAAAF8MioJSwf/Gvw="
+											},
+											"font": "Arial;13;1",
+											"left": 597,
+											"top": 87,
+											"width": 198,
+											"height": 13,
+											"text": "车-交通管理局"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF8MioJSwgCEUA=",
+											"_parent": {
+												"$ref": "AAAAAAF8MioJSwf/Gvw="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"width": 73.67724609375,
+											"height": 13,
+											"text": "(from Model)"
+										},
+										{
+											"_type": "LabelView",
+											"_id": "AAAAAAF8MioJSwgD/dE=",
+											"_parent": {
+												"$ref": "AAAAAAF8MioJSwf/Gvw="
+											},
+											"visible": false,
+											"font": "Arial;13;0",
+											"height": 13,
+											"horizontalAlignment": 1
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 592,
+									"top": 80,
+									"width": 208,
+									"height": 25,
+									"stereotypeLabel": {
+										"$ref": "AAAAAAF8MioJSwgA0Bc="
+									},
+									"nameLabel": {
+										"$ref": "AAAAAAF8MioJSwgBihw="
+									},
+									"namespaceLabel": {
+										"$ref": "AAAAAAF8MioJSwgCEUA="
+									},
+									"propertyLabel": {
+										"$ref": "AAAAAAF8MioJSwgD/dE="
+									}
+								},
+								{
+									"_type": "UMLAttributeCompartmentView",
+									"_id": "AAAAAAF8MioJSwgEZkI=",
+									"_parent": {
+										"$ref": "AAAAAAF8MioJSwf+lAE="
+									},
+									"model": {
+										"$ref": "AAAAAAF8MioJSwf85FE="
+									},
+									"subViews": [
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF8MioxFggpn/8=",
+											"_parent": {
+												"$ref": "AAAAAAF8MioJSwgEZkI="
+											},
+											"model": {
+												"$ref": "AAAAAAF8MioxDwgm02g="
+											},
+											"font": "Arial;13;0",
+											"left": 597,
+											"top": 110,
+											"width": 198,
+											"height": 13,
+											"text": "+车型：String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF8MipWlQgwkXA=",
+											"_parent": {
+												"$ref": "AAAAAAF8MioJSwgEZkI="
+											},
+											"model": {
+												"$ref": "AAAAAAF8MipWjggtZ8U="
+											},
+											"font": "Arial;13;0",
+											"left": 597,
+											"top": 125,
+											"width": 198,
+											"height": 13,
+											"text": "+车主：String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF8MiptHgg3idU=",
+											"_parent": {
+												"$ref": "AAAAAAF8MioJSwgEZkI="
+											},
+											"model": {
+												"$ref": "AAAAAAF8MiptGAg0gyQ="
+											},
+											"font": "Arial;13;0",
+											"left": 597,
+											"top": 140,
+											"width": 198,
+											"height": 13,
+											"text": "+所在地：String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF8MiqEjQg+x30=",
+											"_parent": {
+												"$ref": "AAAAAAF8MioJSwgEZkI="
+											},
+											"model": {
+												"$ref": "AAAAAAF8MiqEiAg7D+g="
+											},
+											"font": "Arial;13;0",
+											"left": 597,
+											"top": 155,
+											"width": 198,
+											"height": 13,
+											"text": "+车牌号：String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF8MjPj2QhFUww=",
+											"_parent": {
+												"$ref": "AAAAAAF8MioJSwgEZkI="
+											},
+											"model": {
+												"$ref": "AAAAAAF8MjPj1QhC7yc="
+											},
+											"font": "Arial;13;0",
+											"left": 597,
+											"top": 170,
+											"width": 198,
+											"height": 13,
+											"text": "+登记时间：String",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF8MjUz0QhrboQ=",
+											"_parent": {
+												"$ref": "AAAAAAF8MioJSwgEZkI="
+											},
+											"model": {
+												"$ref": "AAAAAAF8MjUzyQhoxms="
+											},
+											"font": "Arial;13;0",
+											"left": 597,
+											"top": 185,
+											"width": 198,
+											"height": 13,
+											"text": "+车辆管理状态：int",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAF8MjayVAiKeSE=",
+											"_parent": {
+												"$ref": "AAAAAAF8MioJSwgEZkI="
+											},
+											"model": {
+												"$ref": "AAAAAAF8MjayTgiHNY4="
+											},
+											"font": "Arial;13;0",
+											"left": 597,
+											"top": 200,
+											"width": 198,
+											"height": 13,
+											"text": "+...",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 592,
+									"top": 105,
+									"width": 208,
+									"height": 113
+								},
+								{
+									"_type": "UMLOperationCompartmentView",
+									"_id": "AAAAAAF8MioJSwgFm28=",
+									"_parent": {
+										"$ref": "AAAAAAF8MioJSwf+lAE="
+									},
+									"model": {
+										"$ref": "AAAAAAF8MioJSwf85FE="
+									},
+									"subViews": [
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF8MjQWHAhVXFc=",
+											"_parent": {
+												"$ref": "AAAAAAF8MioJSwgFm28="
+											},
+											"model": {
+												"$ref": "AAAAAAF8MjQWFghStSw="
+											},
+											"font": "Arial;13;0",
+											"left": 597,
+											"top": 223,
+											"width": 198,
+											"height": 13,
+											"text": "+车(...)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF8MjQ2cwhe62g=",
+											"_parent": {
+												"$ref": "AAAAAAF8MioJSwgFm28="
+											},
+											"model": {
+												"$ref": "AAAAAAF8MjQ2bghbaDM="
+											},
+											"font": "Arial;13;0",
+											"left": 597,
+											"top": 238,
+											"width": 198,
+											"height": 13,
+											"text": "+登记(地点, 时间, ...)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF8MjVz5ghypCQ=",
+											"_parent": {
+												"$ref": "AAAAAAF8MioJSwgFm28="
+											},
+											"model": {
+												"$ref": "AAAAAAF8MjVz4Ahv28s="
+											},
+											"font": "Arial;13;0",
+											"left": 597,
+											"top": 253,
+											"width": 198,
+											"height": 13,
+											"text": "+处罚(状态)",
+											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAF8MjZhTQh8SUM=",
+											"_parent": {
+												"$ref": "AAAAAAF8MioJSwgFm28="
+											},
+											"model": {
+												"$ref": "AAAAAAF8MjZhSAh5nCo="
+											},
+											"font": "Arial;13;0",
+											"left": 597,
+											"top": 268,
+											"width": 198,
+											"height": 13,
+											"text": "+...()",
+											"horizontalAlignment": 0
+										}
+									],
+									"font": "Arial;13;0",
+									"left": 592,
+									"top": 218,
+									"width": 208,
+									"height": 68
+								},
+								{
+									"_type": "UMLReceptionCompartmentView",
+									"_id": "AAAAAAF8MioJSwgG8sw=",
+									"_parent": {
+										"$ref": "AAAAAAF8MioJSwf+lAE="
+									},
+									"model": {
+										"$ref": "AAAAAAF8MioJSwf85FE="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"width": 10,
+									"height": 10
+								},
+								{
+									"_type": "UMLTemplateParameterCompartmentView",
+									"_id": "AAAAAAF8MioJSwgHiBU=",
+									"_parent": {
+										"$ref": "AAAAAAF8MioJSwf+lAE="
+									},
+									"model": {
+										"$ref": "AAAAAAF8MioJSwf85FE="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"width": 10,
+									"height": 10
+								}
+							],
+							"font": "Arial;13;0",
+							"containerChangeable": true,
+							"left": 592,
+							"top": 80,
+							"width": 208,
+							"height": 304,
+							"nameCompartment": {
+								"$ref": "AAAAAAF8MioJSwf/Gvw="
+							},
+							"attributeCompartment": {
+								"$ref": "AAAAAAF8MioJSwgEZkI="
+							},
+							"operationCompartment": {
+								"$ref": "AAAAAAF8MioJSwgFm28="
+							},
+							"receptionCompartment": {
+								"$ref": "AAAAAAF8MioJSwgG8sw="
+							},
+							"templateParameterCompartment": {
+								"$ref": "AAAAAAF8MioJSwgHiBU="
+							}
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAF8MYQjyAb5FSM=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "车-厂家",
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF8MYRDpQcjtWs=",
+							"_parent": {
+								"$ref": "AAAAAAF8MYQjyAb5FSM="
+							},
+							"name": "品牌：String"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF8MYTyagcxZAE=",
+							"_parent": {
+								"$ref": "AAAAAAF8MYQjyAb5FSM="
+							},
+							"name": "零件：零件Class Array"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF8MYU/EQc7e0U=",
+							"_parent": {
+								"$ref": "AAAAAAF8MYQjyAb5FSM="
+							},
+							"name": "出场时间：int"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF8MYVoqQdCq2Q=",
+							"_parent": {
+								"$ref": "AAAAAAF8MYQjyAb5FSM="
+							},
+							"name": "车主：String"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF8MYWJOgdJ5fw=",
+							"_parent": {
+								"$ref": "AAAAAAF8MYQjyAb5FSM="
+							},
+							"name": "价格：float"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF8MYW7hAdQOeA=",
+							"_parent": {
+								"$ref": "AAAAAAF8MYQjyAb5FSM="
+							},
+							"name": "保修信息：保修Class"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF8MjaTwAiA11U=",
+							"_parent": {
+								"$ref": "AAAAAAF8MYQjyAb5FSM="
+							},
+							"name": "..."
+						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF8MYY7dwdXudk=",
+							"_parent": {
+								"$ref": "AAAAAAF8MYQjyAb5FSM="
+							},
+							"name": "出售",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF8MYZ7FAde+Lg=",
+									"_parent": {
+										"$ref": "AAAAAAF8MYY7dwdXudk="
+									},
+									"name": "买家",
+									"type": ""
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF8MYZ7aQdgKBk=",
+							"_parent": {
+								"$ref": "AAAAAAF8MYQjyAb5FSM="
+							},
+							"name": "维修零件",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF8MYauIgdnAbQ=",
+									"_parent": {
+										"$ref": "AAAAAAF8MYZ7aQdgKBk="
+									},
+									"name": "零件列表",
+									"type": ""
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF8MYaudAdp71U=",
+							"_parent": {
+								"$ref": "AAAAAAF8MYQjyAb5FSM="
+							},
+							"name": "保修处理"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF8MYcLsgdwNEM=",
+							"_parent": {
+								"$ref": "AAAAAAF8MYQjyAb5FSM="
+							},
+							"name": "车",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF8MYdHWwd37DU=",
+									"_parent": {
+										"$ref": "AAAAAAF8MYcLsgdwNEM="
+									},
+									"name": "...",
+									"type": ""
+								}
+							]
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAF8MYdqUAd5uvg=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "车-车主",
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF8MYeB9AejxVQ=",
+							"_parent": {
+								"$ref": "AAAAAAF8MYdqUAd5uvg="
+							},
+							"name": "品牌：String"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF8MYeghgeqHfM=",
+							"_parent": {
+								"$ref": "AAAAAAF8MYdqUAd5uvg="
+							},
+							"name": "维修记录：log Class"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF8MYggZAexLzg=",
+							"_parent": {
+								"$ref": "AAAAAAF8MYdqUAd5uvg="
+							},
+							"name": "厂家：String"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF8MYi9xQe4mrU=",
+							"_parent": {
+								"$ref": "AAAAAAF8MYdqUAd5uvg="
+							},
+							"name": "登记地：String"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF8MY2ubAfABeQ=",
+							"_parent": {
+								"$ref": "AAAAAAF8MYdqUAd5uvg="
+							},
+							"name": "里程数：float"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF8MY3hBAfHG7k=",
+							"_parent": {
+								"$ref": "AAAAAAF8MYdqUAd5uvg="
+							},
+							"name": "剩余油量：double"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF8MiC+RwfOBQc=",
+							"_parent": {
+								"$ref": "AAAAAAF8MYdqUAd5uvg="
+							},
+							"name": "购买时间：String"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF8MiQCEAf1JFA=",
+							"_parent": {
+								"$ref": "AAAAAAF8MYdqUAd5uvg="
+							},
+							"name": "..."
+						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF8MiMJsAfVSTE=",
+							"_parent": {
+								"$ref": "AAAAAAF8MYdqUAd5uvg="
+							},
+							"name": "加油",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF8MiNIxAfcp6w=",
+									"_parent": {
+										"$ref": "AAAAAAF8MiMJsAfVSTE="
+									},
+									"name": "油量",
+									"type": ""
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF8MiNe6wfeJoE=",
+							"_parent": {
+								"$ref": "AAAAAAF8MYdqUAd5uvg="
+							},
+							"name": "维修"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF8MiOMSAflNys=",
+							"_parent": {
+								"$ref": "AAAAAAF8MYdqUAd5uvg="
+							},
+							"name": "登记"
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF8MiPA2wfs/44=",
+							"_parent": {
+								"$ref": "AAAAAAF8MYdqUAd5uvg="
+							},
+							"name": "车",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF8MiPlGAfzFxk=",
+									"_parent": {
+										"$ref": "AAAAAAF8MiPA2wfs/44="
+									},
+									"name": "...",
+									"type": ""
+								}
+							]
+						}
+					]
+				},
+				{
+					"_type": "UMLClass",
+					"_id": "AAAAAAF8MioJSwf85FE=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "车-交通管理局",
+					"attributes": [
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF8MioxDwgm02g=",
+							"_parent": {
+								"$ref": "AAAAAAF8MioJSwf85FE="
+							},
+							"name": "车型：String"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF8MipWjggtZ8U=",
+							"_parent": {
+								"$ref": "AAAAAAF8MioJSwf85FE="
+							},
+							"name": "车主：String"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF8MiptGAg0gyQ=",
+							"_parent": {
+								"$ref": "AAAAAAF8MioJSwf85FE="
+							},
+							"name": "所在地：String"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF8MiqEiAg7D+g=",
+							"_parent": {
+								"$ref": "AAAAAAF8MioJSwf85FE="
+							},
+							"name": "车牌号：String"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF8MjPj1QhC7yc=",
+							"_parent": {
+								"$ref": "AAAAAAF8MioJSwf85FE="
+							},
+							"name": "登记时间：String"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF8MjUzyQhoxms=",
+							"_parent": {
+								"$ref": "AAAAAAF8MioJSwf85FE="
+							},
+							"name": "车辆管理状态：int"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAF8MjayTgiHNY4=",
+							"_parent": {
+								"$ref": "AAAAAAF8MioJSwf85FE="
+							},
+							"name": "..."
+						}
+					],
+					"operations": [
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF8MjQWFghStSw=",
+							"_parent": {
+								"$ref": "AAAAAAF8MioJSwf85FE="
+							},
+							"name": "车",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF8MjQ2MwhZM5Y=",
+									"_parent": {
+										"$ref": "AAAAAAF8MjQWFghStSw="
+									},
+									"name": "...",
+									"type": ""
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF8MjQ2bghbaDM=",
+							"_parent": {
+								"$ref": "AAAAAAF8MioJSwf85FE="
+							},
+							"name": "登记",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF8MjUOhAhiqQw=",
+									"_parent": {
+										"$ref": "AAAAAAF8MjQ2bghbaDM="
+									},
+									"name": "地点",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF8MjUOhQhjZCQ=",
+									"_parent": {
+										"$ref": "AAAAAAF8MjQ2bghbaDM="
+									},
+									"name": "时间",
+									"type": ""
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF8MjUOhQhkhIM=",
+									"_parent": {
+										"$ref": "AAAAAAF8MjQ2bghbaDM="
+									},
+									"name": "...",
+									"type": ""
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF8MjVz4Ahv28s=",
+							"_parent": {
+								"$ref": "AAAAAAF8MioJSwf85FE="
+							},
+							"name": "处罚",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAF8MjXR3wh2l2Q=",
+									"_parent": {
+										"$ref": "AAAAAAF8MjVz4Ahv28s="
+									},
+									"name": "状态"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAF8MjZhSAh5nCo=",
+							"_parent": {
+								"$ref": "AAAAAAF8MioJSwf85FE="
+							},
+							"name": "..."
+						}
+					]
+				}
+			]
+		}
+	]
+}
